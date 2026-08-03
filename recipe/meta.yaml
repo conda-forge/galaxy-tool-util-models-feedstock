@@ -1,5 +1,5 @@
 {% set name = "galaxy-tool-util-models" %}
-{% set version = "26.0.1" %}
+{% set version = "26.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/galaxy_tool_util_models-{{ version }}.tar.gz
-  sha256: 5cf256c0f3732c589f8658a6edc9ef39203952bcb621297f851a205a936528ab
+  sha256: 09bb2b1a11831f8ace103713742c7e2028f493cbed7bfa3ca994548a604e8944
 
 build:
   noarch: python
