@@ -21,6 +21,7 @@ requirements:
     - setuptools
   run:
     - pydantic >=2.7.4
+    - pydantic-extra-types
     - python >={{ python_min }}
     - typing_extensions
 
