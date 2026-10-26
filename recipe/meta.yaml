@@ -1,13 +1,13 @@
 {% set name = "galaxy-tool-util-models" %}
-{% set version = "26.1.1" %}
+{% set version = "26.1.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/galaxy_tool_util_models-{{ version }}.tar.gz
-  sha256: 7907e3c2061220f2213c48648635c243cb9ecc9523e27f4adb326fd16d217bd7
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/galaxy_tool_util_models-{{ version }}.tar.gz
+  sha256: 04bf48212566da5d7b90365f064bf06c18108a982775410436af767e5dd00edb
 
 build:
   noarch: python
